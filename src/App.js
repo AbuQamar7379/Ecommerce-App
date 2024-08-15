@@ -5,7 +5,11 @@ import Cart from "./pages/Cart/Cart";
 import Orders from "./pages/Orders/Orders";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
-import { addToCart, updateQuantity, removeFromCart } from './utils/cartUtils';
+import {
+  addToCart,
+  updateQuantity,
+  removeFromCart,
+} from "./utils/cartUtils.js";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
